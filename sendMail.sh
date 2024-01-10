@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mailTo=shahinyan13@gmail.com
-mailFrom=yura.shahinyan@gmail.com
-userPassword=sceboiccqiagjwzr
+mailTo=test@gmail.com
+mailFrom=test@gmail.com
+userPassword=test
 
 ps -e -o uname,pid,comm | sed -ne':a;$p;N;11,$D;ba' >> ~/Desktop/mailBody.txt
 
